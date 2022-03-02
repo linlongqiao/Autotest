@@ -1,1 +1,2 @@
-java -Dfile.encoding=UTF-8 -jar ./moco-runner-0.11.0-standalone.jar http -p 8899 -c starup1.json
+#启动命令
+java -Dfile.encoding=UTF-8 -jar ./moco-runner-0.11.0-standalone.jar http -p 8877 -c starup1.json
