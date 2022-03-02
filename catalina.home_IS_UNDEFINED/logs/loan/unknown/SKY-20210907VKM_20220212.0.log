@@ -1,0 +1,269 @@
+2022-02-12 00:49:49.752 [main] INFO  com.course.Application - Starting Application on SKY-20210907VKM with PID 6584 (C:\Users\Administrator\mavenwork\muke\Autotest\Chapter11\target\classes started by Administrator in C:\Users\Administrator\mavenwork\muke\Autotest)
+2022-02-12 00:49:49.757 [main] DEBUG com.course.Application - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2022-02-12 00:49:49.758 [main] INFO  com.course.Application - No active profile set, falling back to default profiles: default
+2022-02-12 00:49:49.814 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3c947bc5: startup date [Sat Feb 12 00:49:49 CST 2022]; root of context hierarchy
+2022-02-12 00:49:50.192 [main] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2022-02-12 00:49:50.193 [main] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.course'
+2022-02-12 00:49:50.195 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2022-02-12 00:49:50.350 [main] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2022-02-12 00:49:50.351 [main] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2022-02-12 00:49:50.351 [main] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2022-02-12 00:49:50.351 [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2022-02-12 00:49:50.352 [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2022-02-12 00:49:50.352 [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2022-02-12 00:49:50.353 [main] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2022-02-12 00:49:50.353 [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2022-02-12 00:49:50.353 [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2022-02-12 00:49:50.353 [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2022-02-12 00:49:50.353 [main] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2022-02-12 00:49:50.356 [main] DEBUG o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2022-02-12 00:49:50.356 [main] DEBUG o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2022-02-12 00:49:50.356 [main] DEBUG o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2022-02-12 00:49:50.356 [main] DEBUG o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2022-02-12 00:49:50.356 [main] DEBUG o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2022-02-12 00:49:50.637 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-02-12 00:49:50.651 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-02-12 00:49:50.659 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-12 00:49:50.659 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2022-02-12 00:49:50.663 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Java\jdk1.8.0_131\bin;C:\Java\jdk1.8.0_131\jre\bin;C:\Program Files\apache-maven-3.8.4\bin;C:\Users\Administrator\Desktop\lin\mysql\mysql-8.0.11-winx64\bin;C:\Program Files\Git\cmd;"C:\jmeter\apache-jmeter-5.4.3\bin;";C:\Program Files\nodejs\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;C:\Users\Administrator\AppData\Local\Programs\Fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2022-02-12 00:49:50.730 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-12 00:49:50.731 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 917 ms
+2022-02-12 00:49:50.815 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2022-02-12 00:49:50.818 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2022-02-12 00:49:50.818 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2022-02-12 00:49:50.818 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2022-02-12 00:49:50.818 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2022-02-12 00:49:50.888 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2022-02-12 00:49:50.910 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2022-02-12 00:49:50.947 [main] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+2022-02-12 00:49:50.947 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Scanned package: 'com.course.model' for aliases
+2022-02-12 00:49:51.047 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\Administrator\mavenwork\muke\Autotest\Chapter11\target\classes\mapper\mysql.xml]'
+2022-02-12 00:49:51.135 [main] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2022-02-12 00:49:51.135 [main] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2022-02-12 00:49:51.141 [main] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2022-02-12 00:49:51.141 [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2022-02-12 00:49:51.141 [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2022-02-12 00:49:51.141 [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2022-02-12 00:49:51.141 [main] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2022-02-12 00:49:51.141 [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2022-02-12 00:49:51.141 [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2022-02-12 00:49:51.141 [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2022-02-12 00:49:51.142 [main] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2022-02-12 00:49:51.144 [main] DEBUG o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2022-02-12 00:49:51.144 [main] DEBUG o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2022-02-12 00:49:51.144 [main] DEBUG o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2022-02-12 00:49:51.144 [main] DEBUG o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2022-02-12 00:49:51.145 [main] DEBUG o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2022-02-12 00:49:51.292 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3c947bc5: startup date [Sat Feb 12 00:49:49 CST 2022]; root of context hierarchy
+2022-02-12 00:49:51.394 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/getUserCount],methods=[GET]}" onto public int com.course.controller.Demo.getUserCount()
+2022-02-12 00:49:51.397 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2022-02-12 00:49:51.398 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2022-02-12 00:49:51.421 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-02-12 00:49:51.422 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-02-12 00:49:51.449 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-02-12 00:49:51.472 [main] DEBUG o.m.s.b.a.MybatisAutoConfiguration - No org.mybatis.spring.mapper.MapperFactoryBean found.
+2022-02-12 00:49:51.571 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2022-02-12 00:49:51.572 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2022-02-12 00:49:51.575 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2022-02-12 00:49:51.585 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-02-12 00:49:51.592 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2022-02-12 00:49:51.604 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-02-12 00:49:51.606 [main] INFO  com.course.Application - Started Application in 2.252 seconds (JVM running for 3.004)
+2022-02-12 00:50:55.476 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2022-02-12 00:50:55.477 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2022-02-12 00:50:55.489 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms
+2022-02-12 00:50:55.507 [http-nio-8888-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2022-02-12 00:50:55.509 [http-nio-8888-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5737922f] was not registered for synchronization because synchronization is not active
+2022-02-12 00:50:55.515 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+2022-02-12 00:50:55.516 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+2022-02-12 00:50:55.516 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+2022-02-12 00:50:55.516 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+2022-02-12 00:50:55.516 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+2022-02-12 00:50:55.516 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+2022-02-12 00:50:55.516 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+2022-02-12 00:50:55.516 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+2022-02-12 00:50:55.516 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+2022-02-12 00:50:55.516 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+2022-02-12 00:50:55.516 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+2022-02-12 00:50:55.516 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."com.mysql.jdbc.Driver"
+2022-02-12 00:50:55.516 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+2022-02-12 00:50:55.516 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+2022-02-12 00:50:55.516 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+2022-02-12 00:50:55.516 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailFast..........true
+2022-02-12 00:50:55.516 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+2022-02-12 00:50:55.517 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+2022-02-12 00:50:55.517 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - jdbc4ConnectionTest.............false
+2022-02-12 00:50:55.517 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:mysql://127.0.0.1:3306/course
+2022-02-12 00:50:55.517 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+2022-02-12 00:50:55.517 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+2022-02-12 00:50:55.517 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+2022-02-12 00:50:55.517 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+2022-02-12 00:50:55.517 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+2022-02-12 00:50:55.517 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+2022-02-12 00:50:55.517 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+2022-02-12 00:50:55.517 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+2022-02-12 00:50:55.517 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+2022-02-12 00:50:55.517 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+2022-02-12 00:50:55.517 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+2022-02-12 00:50:55.517 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutorService........internal
+2022-02-12 00:50:55.517 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+2022-02-12 00:50:55.517 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+2022-02-12 00:50:55.518 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+2022-02-12 00:50:55.518 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - username........................"root"
+2022-02-12 00:50:55.518 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+2022-02-12 00:50:55.518 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-12 00:50:56.024 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@67bf5c41
+2022-02-12 00:50:56.025 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-12 00:50:56.027 [http-nio-8888-exec-1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@591609388 wrapping com.mysql.jdbc.JDBC4Connection@67bf5c41] will not be managed by Spring
+2022-02-12 00:50:56.029 [http-nio-8888-exec-1] DEBUG com.course.getUserCount - ==>  Preparing: select count(*) from user; 
+2022-02-12 00:50:56.041 [http-nio-8888-exec-1] DEBUG com.course.getUserCount - ==> Parameters: 
+2022-02-12 00:50:56.054 [http-nio-8888-exec-1] DEBUG com.course.getUserCount - <==      Total: 1
+2022-02-12 00:50:56.055 [http-nio-8888-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5737922f]
+2022-02-12 00:50:56.139 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2022-02-12 00:50:56.153 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6349ef32
+2022-02-12 00:50:56.164 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@1ac86682
+2022-02-12 00:50:56.175 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@688fe931
+2022-02-12 00:50:56.185 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@4d421867
+2022-02-12 00:50:56.195 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@1c4ca228
+2022-02-12 00:50:56.205 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@27231b05
+2022-02-12 00:50:56.216 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@79450dbe
+2022-02-12 00:50:56.226 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@7cd815f4
+2022-02-12 00:50:56.238 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6830a875
+2022-02-12 00:50:56.239 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2022-02-12 00:51:26.145 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-02-12 00:51:56.159 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-02-12 00:52:26.162 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-02-12 00:52:56.175 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-02-12 00:53:26.184 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2022-02-12 01:01:12.108 [main] INFO  com.course.Application - Starting Application on SKY-20210907VKM with PID 10732 (C:\Users\Administrator\mavenwork\muke\Autotest\Chapter11\target\classes started by Administrator in C:\Users\Administrator\mavenwork\muke\Autotest)
+2022-02-12 01:01:12.114 [main] DEBUG com.course.Application - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2022-02-12 01:01:12.114 [main] INFO  com.course.Application - No active profile set, falling back to default profiles: default
+2022-02-12 01:01:12.174 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@53aad5d5: startup date [Sat Feb 12 01:01:12 CST 2022]; root of context hierarchy
+2022-02-12 01:01:12.494 [main] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2022-02-12 01:01:12.495 [main] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.course'
+2022-02-12 01:01:12.497 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2022-02-12 01:01:12.644 [main] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2022-02-12 01:01:12.644 [main] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2022-02-12 01:01:12.644 [main] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2022-02-12 01:01:12.645 [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2022-02-12 01:01:12.646 [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2022-02-12 01:01:12.646 [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2022-02-12 01:01:12.647 [main] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2022-02-12 01:01:12.647 [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2022-02-12 01:01:12.647 [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2022-02-12 01:01:12.647 [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2022-02-12 01:01:12.647 [main] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2022-02-12 01:01:12.650 [main] DEBUG o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2022-02-12 01:01:12.650 [main] DEBUG o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2022-02-12 01:01:12.650 [main] DEBUG o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2022-02-12 01:01:12.650 [main] DEBUG o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2022-02-12 01:01:12.650 [main] DEBUG o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2022-02-12 01:01:12.898 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-02-12 01:01:12.911 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-02-12 01:01:12.919 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-12 01:01:12.919 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2022-02-12 01:01:12.922 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Java\jdk1.8.0_131\bin;C:\Java\jdk1.8.0_131\jre\bin;C:\Program Files\apache-maven-3.8.4\bin;C:\Users\Administrator\Desktop\lin\mysql\mysql-8.0.11-winx64\bin;C:\Program Files\Git\cmd;"C:\jmeter\apache-jmeter-5.4.3\bin;";C:\Program Files\nodejs\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;C:\Users\Administrator\AppData\Local\Programs\Fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2022-02-12 01:01:12.996 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-12 01:01:12.996 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 822 ms
+2022-02-12 01:01:13.129 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2022-02-12 01:01:13.134 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2022-02-12 01:01:13.134 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2022-02-12 01:01:13.134 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2022-02-12 01:01:13.134 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2022-02-12 01:01:13.200 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2022-02-12 01:01:13.218 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2022-02-12 01:01:13.246 [main] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+2022-02-12 01:01:13.247 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Scanned package: 'com.course.model' for aliases
+2022-02-12 01:01:13.299 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\Administrator\mavenwork\muke\Autotest\Chapter11\target\classes\mapper\mysql.xml]'
+2022-02-12 01:01:13.383 [main] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2022-02-12 01:01:13.383 [main] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2022-02-12 01:01:13.388 [main] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2022-02-12 01:01:13.388 [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2022-02-12 01:01:13.388 [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2022-02-12 01:01:13.388 [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2022-02-12 01:01:13.388 [main] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2022-02-12 01:01:13.388 [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2022-02-12 01:01:13.388 [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2022-02-12 01:01:13.388 [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2022-02-12 01:01:13.390 [main] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2022-02-12 01:01:13.391 [main] DEBUG o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2022-02-12 01:01:13.391 [main] DEBUG o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2022-02-12 01:01:13.391 [main] DEBUG o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2022-02-12 01:01:13.392 [main] DEBUG o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2022-02-12 01:01:13.392 [main] DEBUG o.h.v.i.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2022-02-12 01:01:13.526 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@53aad5d5: startup date [Sat Feb 12 01:01:12 CST 2022]; root of context hierarchy
+2022-02-12 01:01:13.638 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/getUserCount],methods=[GET]}" onto public int com.course.controller.Demo.getUserCount()
+2022-02-12 01:01:13.642 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2022-02-12 01:01:13.642 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2022-02-12 01:01:13.670 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-02-12 01:01:13.670 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-02-12 01:01:13.703 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-02-12 01:01:13.728 [main] DEBUG o.m.s.b.a.MybatisAutoConfiguration - No org.mybatis.spring.mapper.MapperFactoryBean found.
+2022-02-12 01:01:13.830 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2022-02-12 01:01:13.831 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2022-02-12 01:01:13.835 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2022-02-12 01:01:13.844 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-02-12 01:01:13.852 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2022-02-12 01:01:13.863 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-02-12 01:01:13.865 [main] INFO  com.course.Application - Started Application in 2.145 seconds (JVM running for 2.889)
+2022-02-12 01:02:36.949 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2022-02-12 01:02:36.949 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2022-02-12 01:02:36.963 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+2022-02-12 01:02:36.979 [http-nio-8888-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2022-02-12 01:02:36.981 [http-nio-8888-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@249e8784] was not registered for synchronization because synchronization is not active
+2022-02-12 01:02:36.988 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+2022-02-12 01:02:36.989 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+2022-02-12 01:02:36.989 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+2022-02-12 01:02:36.989 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+2022-02-12 01:02:36.989 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+2022-02-12 01:02:36.989 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+2022-02-12 01:02:36.989 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+2022-02-12 01:02:36.989 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+2022-02-12 01:02:36.989 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+2022-02-12 01:02:36.989 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+2022-02-12 01:02:36.990 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+2022-02-12 01:02:36.990 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."com.mysql.jdbc.Driver"
+2022-02-12 01:02:36.990 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+2022-02-12 01:02:36.990 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+2022-02-12 01:02:36.990 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+2022-02-12 01:02:36.990 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailFast..........true
+2022-02-12 01:02:36.990 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+2022-02-12 01:02:36.990 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+2022-02-12 01:02:36.990 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - jdbc4ConnectionTest.............false
+2022-02-12 01:02:36.990 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:mysql://127.0.0.1:3306/course
+2022-02-12 01:02:36.990 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+2022-02-12 01:02:36.990 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+2022-02-12 01:02:36.990 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+2022-02-12 01:02:36.990 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+2022-02-12 01:02:36.990 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+2022-02-12 01:02:36.990 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+2022-02-12 01:02:36.990 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+2022-02-12 01:02:36.990 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+2022-02-12 01:02:36.990 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+2022-02-12 01:02:36.990 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+2022-02-12 01:02:36.990 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+2022-02-12 01:02:36.990 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutorService........internal
+2022-02-12 01:02:36.990 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+2022-02-12 01:02:36.999 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+2022-02-12 01:02:36.999 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+2022-02-12 01:02:36.999 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - username........................"root"
+2022-02-12 01:02:36.999 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+2022-02-12 01:02:36.999 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-12 01:02:37.446 [http-nio-8888-exec-1] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@3b592861
+2022-02-12 01:02:37.448 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-12 01:02:37.450 [http-nio-8888-exec-1] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@629572852 wrapping com.mysql.jdbc.JDBC4Connection@3b592861] will not be managed by Spring
+2022-02-12 01:02:37.453 [http-nio-8888-exec-1] DEBUG com.course.getUserCount - ==>  Preparing: select count(*) from user; 
+2022-02-12 01:02:37.465 [http-nio-8888-exec-1] DEBUG com.course.getUserCount - ==> Parameters: 
+2022-02-12 01:02:37.477 [http-nio-8888-exec-1] DEBUG com.course.getUserCount - <==      Total: 1
+2022-02-12 01:02:37.478 [http-nio-8888-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@249e8784]
+2022-02-12 01:02:37.553 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2022-02-12 01:02:37.566 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6eebbbad
+2022-02-12 01:02:37.578 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@33e0368f
+2022-02-12 01:02:37.588 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@19c1ae0
+2022-02-12 01:02:37.598 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6caadf82
+2022-02-12 01:02:37.607 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@d0fca4a
+2022-02-12 01:02:37.617 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@5c8e4d25
+2022-02-12 01:02:37.628 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@7f2b653b
+2022-02-12 01:02:37.638 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@d313526
+2022-02-12 01:02:37.649 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@1c89778f
+2022-02-12 01:02:37.649 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
